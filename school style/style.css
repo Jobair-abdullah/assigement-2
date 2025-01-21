@@ -1,0 +1,91 @@
+.head-nav{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 34px;
+}
+.st-nav , .nd-nav{
+    /* nav bar 1st and middle part */
+     display: flex;
+    }
+    .nd-nav{
+        /* ul nav style */
+        gap: 40px;
+        list-style: none;
+    }
+
+.st-image{
+    /* nav bar 1st image */
+    width: 50px;
+height: 50px;
+padding-left: 140px;
+}
+.nav-btn{
+    /* nav bar button */
+    margin-right: 140px;
+    width: 177px;
+height: 40px;
+border-radius: 12px;
+/* Orange */
+background: rgba(239, 154, 7, 0.756);
+border: none;
+
+}
+.nav-paraone{
+    /* nav bar HOME section work */
+    font-size: 20px;
+font-weight: 700;
+color: rgb(254, 163, 1);
+text-decoration: none;
+}
+.nav-paratwo{
+/*  nav bar About section work */
+    font-size: 20px;
+font-weight: 500;
+color: rgb(1, 172, 253);
+text-decoration: none;
+}
+.nav-parathree{
+    /* nav bar Facilities section */
+    font-size: 20px;
+font-weight: 500;
+color: rgb(5, 212, 223);
+text-decoration: none;
+}
+.nav-parafour{
+    font-size: 20px;
+font-weight: 500;
+color: rgb(93, 88, 239);
+text-decoration: none;
+}
+.hamburger-btn{
+    display: none; 
+    font-size: 24px;
+    background: none;
+    border: none;
+   cursor: pointer;
+}
+@media screen and (max-width:576px){
+   
+    .hamburger-btn {
+        display: block;
+        }
+     .nav-heading{
+            display: none;
+        }
+        .nav-btn{
+            display: none;
+        }
+        .nd-nav {
+            display: none; 
+           
+        }
+        
+            .st-image{
+                padding-left: 15px;
+     }
+     .head-nav{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+     }
+
+}
