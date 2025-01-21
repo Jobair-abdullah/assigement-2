@@ -64,10 +64,62 @@ text-decoration: none;
     border: none;
    cursor: pointer;
 }
-@media screen and (max-width:576px){
+
+
+.banner-nav{
+    /* whole banner section  */
+    display: flex;
    
+    gap: 250px;
+}
+.banner-para{
+    /* banner paragraph section */
+    padding-left: 140px;
+    padding-top: 122px;
+}
+.banner-paraone{
+    /*  banner pera one section */
+ font-family: Quicksand;
+font-size: 56px;
+font-weight: 700;
+}
+/* banner-paraone section color elements */
+.paraone-color{
+color: rgb(254, 163, 1);
+}
+.paratwo-color{
+    color: rgb(1, 172, 253);
+}
+.btn-banner{
+    margin-right: 140px;
+    width: 177px;
+height: 40px;
+border-radius: 12px;
+background-color: black;
+color: white;
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+border: none;
+}
+.banner-compo{
+    font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+color: rgb(17, 17, 17);
+opacity: 0.9;
+}
+.img-banner{
+    padding-right: 140px;
+}
+
+
+
+@media screen and (max-width:576px){
+  
     .hamburger-btn {
         display: block;
+        max-width: 50%;
         }
      .nav-heading{
             display: none;
@@ -86,6 +138,33 @@ text-decoration: none;
      .head-nav{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+     }
+     .banner-nav{
+        /* full banner one line */
+        flex-direction: column-reverse;
+     }
+     .banner-para{
+        max-width: 60%;
+     margin-top: -350px;
+       padding-left: 0%;
+       text-align: center;
+       
+      
+     }
+     .banner-paraone{
+        font-family: Quicksand;
+font-size: 36px;
+font-weight: 700;
+     }
+     .img-banner{
+       
+        max-width: 60%;
+        width: 333px;
+       
+     }
+     .btn-banner{
+    margin-left: 20%;
+    
      }
 
 }
