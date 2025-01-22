@@ -337,9 +337,124 @@ font-size: 15.34px;
 font-weight: 700;
 padding-left: 38px;
 }
+.footer-img{
+    display: flex;
+}
+.all-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.foooter{
+    padding-top: 124px;
+    padding-left: 50px;
+    width: 1550px;
+height: 319px;
+background: rgb(1, 172, 253);
+}
+.footer-img-main{
+    padding-left: 140px;
+}
+.footer-headone{
+    width: 206.11px;
+height: 80px;
+font-family: Quicksand;
+font-size: 22.14px;
+font-weight: 700;
+color:rgb(255, 255, 255);
+}
+.footer-logo{
+    
+    width: 82.9px;
+height: 81.65px
+
+}
+.footer-divpara{
+    color:rgb(255, 255, 255);
+    width: 399.02px;
+height: 100px;
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+}
+.footer-about{
+    padding-left: 172px;
+}
+.footer-abouthead{
+    font-family: Quicksand;
+    color:rgb(255, 255, 255);
+font-size: 24px;
+padding-left: 30px;
+font-weight: 700;
+width: 156.36px;
+
+height: 30px;
+}
+.footer-ul{
+    list-style: none;
+}
+.footer-li{
+    text-decoration: none;
+    width: 57.87px;
+
+height: 25px;
+font-family: Quicksand;
+color:rgb(255, 255, 255);
+font-size: 20px;
+
+font-weight: 500;
+line-height: 25px;
+}
+.footer-icon{
+    width: 177.12px;
+
+height: 26px;
+font-family: Quicksand;
+
+font-size: 26px;
+color:rgb(255, 255, 255);
+font-weight: 700;
+}
+.btn-bonouseone{
+   margin-left: 700px;
+   margin-bottom: 120px;
+   width: 60px;
+
+height: 60px;
+border-radius: 30px;
+	color: aliceblue;	
+    font-family: Font Awesome 5 Free;
+
+font-size: 24px;
+
+font-weight: 900;	
+
+/* Orange */
+
+background: rgb(254, 163, 1);
+border: none;
+}
+.btn-bonousetwo{
+    width: 60px;
+    color: aliceblue;	
+    font-family: Font Awesome 5 Free;
+
+font-size: 24px;
+margin-left: 19px;
+font-weight: 900;	
+height: 60px;
+border-radius: 30px;
+			
+border: none;
+/* Orange */
+
+background: rgb(254, 163, 1);
+
+}
+
 @media screen and (max-width:576px){
     .nav-bannersec{
-        
+        margin-left: 600px;
+        margin-top: ;
     }
   
     .hamburger-btn {
