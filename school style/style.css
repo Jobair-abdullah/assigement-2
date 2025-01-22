@@ -113,7 +113,7 @@ opacity: 0.9;
 }
 .Curriculum{
     padding-top: 60px;
-    background-image: url(../B11-A2-Kids-School/assets/bg.png);
+    background-image: url(../assets/bg.png);
     width: 1440px;
     height: 879px;
 }
@@ -214,10 +214,129 @@ color: rgb(128, 128, 128);
     color: rgb(135, 0, 255);
 
  }
+ /*  3rd part of this websitr our story */
+ .stories-part{
+    /* story part bg and other */
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    width: 1550px;
+height: 1018.02px;
+padding-top: 80px;
+ }
+ .story-head{
+    /* story-head only one head outside the section */
+    text-align: center;
+    font-family: Quicksand;
+font-size: 46px;
+font-weight: 700;
+ }
+ .stroy-mother{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding-top: 80px;
+ }
+ .stroy-oneimg{
+    /* story image nu1  */
+    grid-row: span 3;
+    margin-left: 140px;
+    width: 540px;
+height: 640px;
+  background-color: aliceblue;
+  border-radius: 16px 16px 16px 16px;
 
+ }
+.img-one , .img-two ,.img-four,.img-three{
+/* image -one style */
+    border-radius: 16px 16px 0px 0px;
+}
+.btn-one{
+    /* btn-number one */
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+ width: 174.51px;
+height: 47.93px;
+margin-left: 40px;
+font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+color: aliceblue;
+border: none;
+margin-top: -100px;
 
+}
+.stry-headone{
+    /* story head one */
+    width: 402.49px;
+height: 69.98px;
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+padding-left: 40px;
+}
+.stry-paraone{
+    /* image one paraone */
+    font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+width: 433.06px;
+height: 75.74px;
+color: rgb(102, 102, 102);
+padding-left: 40px;
+padding-bottom: 34px;
 
+}
 
+.stroy-twoimg , .stroy-threeimg{
+    /* 2 number stroy basic */
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+width: 290.69px;
+height: 301.61px;
+margin-left: 50px;
+
+}
+
+.stroy-fourimg , .stroy-fiveimg{
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+width: 290.69px;
+height: 301.61px;
+}
+.btn-two , .btn-three {
+    border-radius: 47.93px;
+background: rgb(149, 178, 38);
+margin-left: 38px;
+width: 136.46px;
+font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+margin-top: -50px;
+}
+.btn-five{
+    border-radius: 47.93px;
+background: rgb(149, 178, 38);
+margin-left: 38px;
+margin-top: -50px;
+width: 140.44px;
+height: 50.35px;
+}
+.btn-four{
+    border-radius: 47.93px;
+background: rgb(93, 88, 240);
+    margin-left: 38px;
+width: 136.46px;
+font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+margin-top: -50px;
+}
+.story-onlyonehead{
+    width: 198.04px;
+height: 47.93px;font-family: Quicksand;
+font-size: 15.34px;
+font-weight: 700;
+padding-left: 38px;
+}
 @media screen and (max-width:576px){
     .nav-bannersec{
         
@@ -286,6 +405,45 @@ font-weight: 700;
      .Curriculum{
         width: auto;
      }
-
-
+     /* stry part respone */
+     .stories-part{
+        /* story part bg and other */
+        
+        width: auto;
+    height: auto;
+    padding-top: 30px;
+     }
+     .stroy-oneimg{
+        display: none;
+     }
+     .stroy-mother{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        padding-top: 80px;
+     }
+     .story-head{
+        /* story-head only one head outside the section */
+        text-align: center;
+        font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    padding-top: 800px;
+     }
+     .stroy-twoimg,.stroy-threeimg,.stroy-fourimg{
+        width: auto;
+        margin-left: 0px;
+     }
+     .img-one , .img-two ,.img-four,.img-three{
+        /* image -one style */
+            border-radius: 16px 16px 0px 0px;
+            width: auto;
+        }
+        .story-onlyonehead{
+            width: 198.04px;
+        height: 47.93px;font-family: Quicksand;
+        font-size: 10.34px;
+        font-weight: 700;
+        padding-left: 38px;
+        }
 }
