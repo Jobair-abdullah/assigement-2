@@ -69,7 +69,6 @@ text-decoration: none;
 .banner-nav{
     /* whole banner section  */
     display: flex;
-   
     gap: 250px;
 }
 .banner-para{
@@ -112,14 +111,121 @@ opacity: 0.9;
 .img-banner{
     padding-right: 140px;
 }
+.Curriculum{
+    padding-top: 60px;
+    background-image: url(../B11-A2-Kids-School/assets/bg.png);
+    width: 1440px;
+    height: 879px;
+}
+.Curriculum-heading{
+text-align: center;
+font-family: Quicksand;
+font-size: 36px;
+font-weight: 700;
+}
+/* curriculam-card 3rd section */
+.curriculam-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+.curriculam-kinder{
+    /* 1st curriculam curriculam-kinder */
+    margin-left: 140px;
+   border: 0.94px solid rgb(222, 245, 255);
+   box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+   border-radius: 18.86px;
+   background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+   width: 367.8px;
+   height: 476.78px;
+}
+.curriculam-Elementary{
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+width: 367.8px;
+height: 481.5px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.curriculam-Middle{
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+width: 367.8px;
+height: 476.78px;
+margin-right: 140px;
+}
+.curriculam-img{
+    /* all curriculam image in one class */
+    width: 130.7px;
+    height: 111.94px;
+    padding-left: 118px;
+    padding-top: 70px;   
+    
+}
+.curriculam-head{
+    /* all curriculam head in one class */
+    font-family: Quicksand;
+font-size: 24.52px;
+font-weight: 700;
+padding-left: 79px;
+}
+.curriculam-para{
+/* all curriculam para in one section */
+font-family: Raleway;
+font-size: 15.09px;
+font-weight: 500;
+text-align: center;
+padding-left: 40px;
+padding-right: 40px;
+color: rgb(128, 128, 128);
+}
+ .kinde-btn{
+    /* 1st element btn */
+    border: none;
+    margin-left: 140px;
+    margin-top: 38px;
+    font-family: Quicksand;
+    font-size: 18.09px;
+    font-weight: 700;
+    color: rgb(100, 200, 255);
+    
+ }
+ .Elementary-btn{
+    /* 2nd curriculam button */
+    border: none;
+    margin-left: 140px;
+    margin-top: 38px;
+    font-family: Quicksand;
+    font-size: 18.09px;
+    font-weight: 700;
+    color: rgb(240, 170, 0);
+ }
+ .middle-btn{
+    /* 3rd and last curriculam button */
+    border: none;
+    margin-left: 140px;
+    margin-top: 38px;
+    font-family: Quicksand;
+    font-size: 18.09px;
+    font-weight: 700;
+    color: rgb(135, 0, 255);
+
+ }
+
 
 
 
 @media screen and (max-width:576px){
+    .nav-bannersec{
+        
+    }
   
     .hamburger-btn {
         display: block;
-        max-width: 50%;
+        max-width: auto;
         }
      .nav-heading{
             display: none;
@@ -146,7 +252,7 @@ opacity: 0.9;
      .banner-para{
         max-width: 60%;
      margin-top: -350px;
-       padding-left: 0%;
+       padding-left: 40px;
        text-align: center;
        
       
@@ -157,14 +263,29 @@ font-size: 36px;
 font-weight: 700;
      }
      .img-banner{
-       
+       margin-left: 40px;
         max-width: 60%;
         width: 333px;
        
      }
      .btn-banner{
-    margin-left: 20%;
+    margin-left: 40px;
     
      }
+     /*  curriculam section mobile device */
+     .curriculam-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+     }
+     .Curriculum-heading{
+        text-align: start;
+     }
+     .curriculam-kinder{
+        margin-left: 0px;
+     }
+     .Curriculum{
+        width: auto;
+     }
+
 
 }
